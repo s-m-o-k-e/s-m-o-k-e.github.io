@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Bullying Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        :root {
+            --text: #e2e8e9;
+            --background: #161c1d;
+            --primary: #b1c1c4;
+            --secondary: #181f20;
+            --accent: #718f94;
+            --primary-font: 'Space Mono', monospace;
+            --secondary-font: 'Inter', sans-serif;
+        }
+
+        body {
+            font-family: var(--primary-font);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            background-color: var(--background);
+            text-shadow: 1px 1px 2px #718f94;
+        }
+
+        header {
+            background-color: var(--accent);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-family: var(--secondary-font);
+            text-shadow: 2px 2px 6px #000000;
+        }
+
+        .navbar {
+            background-color: var(--primary-color);
+            padding: 10px;
+            display: flex;
+            justify-content: safe center;
+            align-items: center;
+        }
+
+        .navbar-link {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .icon {
+            font-size: 24px;
+            vertical-align: middle;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: var(--secondary);
+            box-shadow: 0 2px 6px #e2e8e9;
+            border-radius: 10px;
+        }
+
+        .quote {
+            font-style: italic;
+            color: var(--secondary);
+        }
+        footer {
+            background-color: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 24px;
+        }
+        footer i.material-icons {
+            color:darkred;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Citations</h1>
+    </header>
+    <nav class="navbar">
+        <a href="index.html" class="navbar-link"><i class="material-icons icon">home</i> Home</a>
+        <a href="resources.html" class="navbar-link"><i class="material-icons icon">speaker_notes</i> Citations</a>
+    </nav>
+    <div class="container">
+        <div class="section">
+            <h2>(insert citation header)</h2>
+            <p>(insert citation link)</p>
+        </div>
+        <div class="section">
+            <h2>(insert citation header)</h2>
+            <p>(insert citation header)</p>
+        </div>
+        <div class="section">
+            <h2>Creators</h2>
+            <p>(our names)</p>
+        </div>
+        <footer>
+            <i class="material-icons icon">block</i>Stop Bullying
+        </footer>
+    </div>
+</body>
+</html>
