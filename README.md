@@ -1,1 +1,1 @@
-absoulut garbage
+absolute garbage
